@@ -7,7 +7,7 @@ public class Calculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Kérek egy sámot: ");
+        System.out.println("Kérek egy számot: ");
         int egyikSzam = scanner.nextInt();
 
         System.out.println("Kérek még egy számot: ");
