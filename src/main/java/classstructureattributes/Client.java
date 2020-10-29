@@ -4,7 +4,7 @@ public class Client {
 
         String name;
 
-        int year;
+        String year;
 
         String address;
 
