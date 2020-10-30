@@ -10,7 +10,7 @@ public class ClientMain {
 
         System.out.println("Név:");
         client.name = scanner.nextLine();
-        System.out.println("Születési év:");
+        System.out.println("Születési év: ");
         client.year = scanner.nextLine();
         System.out.println("Lakcím:");
         client.address = scanner.nextLine();
