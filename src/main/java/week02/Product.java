@@ -25,10 +25,13 @@ public class Product {
         this.code = code;
     }
 
-    public boolean areTheyEqual(Product p) {
-        
+/*    public boolean areTheyEqual(Product p) {
+        return p.name
+    }*/
 
+    public static void main(String[] args) {
+        Product product1 = new Product("Samsung", "1");
+        Product product2 = new Product("Nokia", "2");
 
-    }
-
+        System.out.println(product1);}
 }
