@@ -33,6 +33,7 @@ public class forEachCiklus {
             System.out.println(answers[i]);
         }
 
+
     }
 
 }
