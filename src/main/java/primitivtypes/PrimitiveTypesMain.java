@@ -14,12 +14,11 @@ public class PrimitiveTypesMain {
         List<Integer> numbers = new ArrayList<>();  //
         numbers.add(j);  //i vagy j is adható paraméternek
 
-        System.out.println(Integer.toString(9,2)); //2-es számrendszerben kiírni a 9-et, ami 1001
-        System.out.println(Integer.toString(-9,2));  //itt csak elé teszi a - jelet, de a 9-es számot írja ki
+        System.out.println(Integer.toString(9, 2)); //2-es számrendszerben kiírni a 9-et, ami 1001
+        System.out.println(Integer.toString(-9, 2));  //itt csak elé teszi a - jelet, de a 9-es számot írja ki
         System.out.println(Integer.toBinaryString(-9));  //2-es számrendszerben kiírni a -9-et, ami a 11111111111111111111111111110111
 
         int k = Integer.parseInt("9"); //szövegből számot konvertálunk, de fontos, hogy szám legyen, mert különben hiba jön vissza
-
 
 
     }
