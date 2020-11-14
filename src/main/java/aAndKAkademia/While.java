@@ -14,6 +14,7 @@ public class While {
 
         int j = 345_643_566;
 
+
         while (j > 0){
             System.out.println(j);
             j /= 10;
