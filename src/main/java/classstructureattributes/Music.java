@@ -13,7 +13,8 @@ public class Music {
         System.out.println("Dal címe?");
         song.title = scanner.nextLine();
         System.out.println("Hossza percben?");
-        song.lenght = scanner.nextLine();
+        song.lenght = scanner.nextInt();
+        scanner.nextLine();
 
         System.out.println(song.band + " - " + song.title + ", (" + song.lenght + " perc)!");
     }

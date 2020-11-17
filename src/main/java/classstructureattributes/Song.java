@@ -4,6 +4,6 @@ public class Song {
 
     String band;
     String title;
-    String lenght;
+    int lenght;
 
 }
