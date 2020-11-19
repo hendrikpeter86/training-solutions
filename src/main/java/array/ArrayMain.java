@@ -33,7 +33,15 @@ public class ArrayMain {
             System.out.println(two[i] + " ");
         }
 
+        boolean[] bools = new boolean[6];
 
+        for (int i = 1; i < bools.length; i++) {
+            bools[i] = !bools[i - 1];
+        }
+
+        for (int i = 0; i < bools.length; i++) {
+            System.out.print(bools[i] + " ");
+        }
     }
 
 }
