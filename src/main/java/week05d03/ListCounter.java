@@ -14,10 +14,12 @@ public class ListCounter {
         list.add("alapos");
         list.add("Terike");
 
+        for(String listPart : list){
+    //        if(listPart.charAt(0) == "a"){}
+        }
+
         if(list.get(0).equals("a") || list.get(0).equals("A")){
-            for(String listPart : list){
-                System.out.println(listPart);
-            }
+
         }else{
             System.out.println(0);
         }

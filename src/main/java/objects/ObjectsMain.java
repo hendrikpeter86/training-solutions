@@ -1,21 +1,48 @@
 package objects;
 
-public class ObjectsMain {
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
-    public static void main(String[] args) {
- /*     Trainer t1 = new Trainer("John Doe");
-        Trainer t2 = null;
+        public class ObjectsMain {
 
-        System.out.println(t1);
-        System.out.println(t2);
+            public static void main(String[] args) {
+                new Book();
 
-        if (t2 == null){
-            System.out.println("t2 is null");
+                System.out.println(new Book());
+
+                Book emptyBook = null;
+
+                System.out.println(emptyBook);
+
+                Book book = new Book();
+
+                System.out.println(book);
+
+                book = null;
+
+                System.out.println(book);
+
+                book = new Book();
+
+                System.out.println(book);
+
+                Book anotherBook = new Book();
+
+                System.out.println(book == anotherBook);
+
+                anotherBook = book;
+
+                System.out.println(anotherBook);
+                System.out.println(book == anotherBook);
+
+                Book[] books = {new Book(), new Book(), new Book()};
+
+                List<Book> books1 = Arrays.asList(new Book(), new Book());
+
+                List<Book> books2 = new ArrayList<>();
+                books2.add(new Book());
+                books2.add(new Book());
+                books2.add(new Book());
+            }
         }
-
-       Trainer t3 = new Trainer("John Doe");
-
-        System.out.println(t1 == t3);
-        */
-    }
-}
