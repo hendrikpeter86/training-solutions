@@ -1,4 +1,4 @@
-package aAndKAkademia;
+package AAndKAkademia;
 
 public class DoWhile {
 

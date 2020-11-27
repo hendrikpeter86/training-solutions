@@ -1,4 +1,4 @@
-package aAndKAkademia;
+package AAndKAkademia;
 
 import java.util.Scanner;
 

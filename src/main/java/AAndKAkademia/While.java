@@ -1,4 +1,4 @@
-package aAndKAkademia;
+package AAndKAkademia;
 
 public class While {
     public static void main(String[] args) {
