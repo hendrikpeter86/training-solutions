@@ -5,6 +5,12 @@ public class OperatorsMain {
 
         System.out.println(0333);
 
+        System.out.println(new Operators().isEven(5));
+        System.out.println(new Operators().isEven(6));
+
+        System.out.println(new Operators().multiplyByPowerOfTwo(12,2));
+        System.out.println(new Operators().multiplyByPowerOfTwo(15,5));
+
 
 
 
