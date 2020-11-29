@@ -19,7 +19,6 @@ public class Gentleman {
         System.out.println("Kérlek add meg a neved :) ");
         String koszones = gentleman.sayHello(scanner.nextLine());
         System.out.println(koszones);
-
     }
 
 
