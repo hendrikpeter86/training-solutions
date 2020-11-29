@@ -1,5 +1,7 @@
 package introjunit;
 
+import java.util.Scanner;
+
 public class Gentleman {
 
    public String sayHello(String name){
@@ -10,13 +12,15 @@ public class Gentleman {
        }
 
    }
-/*
 
     public static void main(String[] args) {
         Gentleman gentleman = new Gentleman();
-        String koszones = gentleman.sayHello(null);
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Kérlek add meg a neved :) ");
+        String koszones = gentleman.sayHello(scanner.nextLine());
         System.out.println(koszones);
+
     }
-*/
+
 
 }
