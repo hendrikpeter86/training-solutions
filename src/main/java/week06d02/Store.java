@@ -4,13 +4,13 @@ import java.util.List;
 
 public class Store {
 
-    List<String> Product;
+    List<Product> products;
 
-    public Store(List<String> product) {
-        Product = product;
+    public Store(List<Product> products) {
+        this.products = products;
     }
 
-/*    getProductByCategoryName(Category){
+  /*    getProductByCategoryName(Category){
         return;
     }*/
 
