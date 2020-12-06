@@ -1,17 +1,26 @@
 package week06d02;
 
+import primitivtypes.PrimitiveTypes;
+
 import java.util.List;
 
 public class Store {
 
-    List<Product> products;
+    private List<Product> products;
 
     public Store(List<Product> products) {
         this.products = products;
     }
 
-  /*    getProductByCategoryName(Category){
-        return;
-    }*/
+ public int getProductByCategoryName(Category categoryName) {
+     int count = 0;
+
+     for(Product p : products){
+         if(p.getCategory() == categoryName){
+             count++;
+         }
+     }
+        return count;
+ }
 
 }
