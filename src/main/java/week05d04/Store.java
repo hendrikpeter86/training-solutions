@@ -8,6 +8,10 @@ public class Store {
 
     private List<Product> products = new ArrayList<>();
 
+    public Store(List<Product> products) {
+        this.products = products;
+    }
+
     public boolean addProduct(Product product){
         if(!isValid(product)){
             return false;
