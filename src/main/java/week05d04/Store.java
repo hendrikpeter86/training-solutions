@@ -9,7 +9,7 @@ public class Store {
     private List<Product> products = new ArrayList<>();
 
     public boolean addProduct(Product product){
-        if(isValid(product)){
+        if(!isValid(product)){
             return false;
         }
         products.add(product);
