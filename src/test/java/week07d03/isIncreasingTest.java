@@ -1,4 +1,4 @@
-package week07d04;
+package week07d03;
 
 import org.junit.jupiter.api.Test;
 import week07d03.NumberList;
