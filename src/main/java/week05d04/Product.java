@@ -4,22 +4,26 @@ import java.time.LocalDate;
 
 public class Product {
 
-    String termekNev;
-    LocalDate lejaratiIdo;
+    private String name;
+    private LocalDate expireDate;
 
-    public Product(LocalDate lejaratiIdo) {
-        this.lejaratiIdo = lejaratiIdo;
+    public Product(String name, int year, int month, int day) {
+        this.name = name;
+        expireDate = LocalDate.of(year, month, day);
     }
 
-    public Product(String termekNev) {
-        this.termekNev = termekNev;
+    public String getName() {
+        return name;
     }
 
+    public LocalDate getExpireDate() {
+        return expireDate;
+    }
 
-
-
-
-    public Product(String name, int year, int month, int day){
-
+    public boolean isExpired(){
+        if (expireDate.isBefore(LocalDate.now())){
+            return true;
+        }
+        return false;
     }
 }
