@@ -1,13 +1,25 @@
 package week06d05;
 
 public class Biscuit {
-    int gramAmount;
-   BiscuitType type;
 
+    private BiscuitType type;
+    private int gramAmount;
 
-        public void of(int gramAmount, BiscuitType type) {
-            this.gramAmount = gramAmount;
-            this.type = type;
+    public Biscuit(BiscuitType type, int gramAmount) {
+        this.type = type;
+        this.gramAmount = gramAmount;
+    }
+
+    public BiscuitType getType() {
+        return type;
+    }
+
+    public int getGramAmount() {
+        return gramAmount;
+    }
+
+    public static Biscuit of(BiscuitType type, int gramAmount) {
+        return new Biscuit(type, gramAmount);
         }
 
 
