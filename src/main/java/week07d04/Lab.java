@@ -34,6 +34,10 @@ public class Lab {
         return title != null && title.length() > 2;
     }
 
+    public String titleAndCompleted(String singIfCompleted, String singIfNotCompleted){
+        return title + " " + (completed ? singIfCompleted : singIfNotCompleted);
+    }
+
     @Override
     public String toString() {
         return "Lab{" +

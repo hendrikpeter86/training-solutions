@@ -57,4 +57,12 @@ public class LabTest {
         assertFalse(lab2.isTitleLongerThanTwoCharacter());
 
     }
+
+    @Test
+    void testTitleAndCompleted(){
+        Lab lab = new Lab("Eső");
+
+        String result = lab.titleAndCompleted("x", "-");
+        assertEquals("Eső -", result);
+    }
 }
