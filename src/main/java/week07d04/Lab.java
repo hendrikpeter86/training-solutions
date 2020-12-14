@@ -17,16 +17,21 @@ public class Lab {
         completed = true;
         this.completedAt = completedAt;
     }
-
+    //állapot beállító
     public void complete(LocalDate completedAt){
         completed = true;
         this.completedAt = completedAt;
     }
 
-
+    //állapot beállító
     public void complete(){
         completed = true;
         completedAt = LocalDate.now();
+    }
+
+    //eredményt visszaadó, query, van visszatérési értéke
+    public boolean isTitleLongerThanTwoCharacter(){
+        return title != null && title.length() > 2;
     }
 
     @Override
