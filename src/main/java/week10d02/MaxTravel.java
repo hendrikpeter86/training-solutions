@@ -2,7 +2,7 @@ package week10d02;
 
 public class MaxTravel {
 
-/*    public int getMaxIndex(){
+/*    public String getMaxIndex(){
         return;
     }*/
 }
